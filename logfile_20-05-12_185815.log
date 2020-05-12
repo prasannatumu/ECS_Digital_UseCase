@@ -1,0 +1,16 @@
+INFO:root:20-05-12_185815 Script started
+INFO:root:Reading scripts from:/home/ec2-user/ECS_Digital_UseCase/sqlscripts/
+INFO:root:Sorted list of sql files: ['045.inserttable.sql', '098.inserttable.sql', '101 inserttable.sql', '103.inserttable.sql', '104.inserttable.sql']
+INFO:root:Database connection established successfully
+INFO:root:Current version of database is 100
+INFO:root:version of database is less than file 101 inserttable.sql so executing the file and updating the database version
+INFO:root:Executed commands in /home/ec2-user/ECS_Digital_UseCase/sqlscripts//101 inserttable.sql
+INFO:root:Updated version of database is: 101
+INFO:root:version of database is less than file 103.inserttable.sql so executing the file and updating the database version
+INFO:root:Executed commands in /home/ec2-user/ECS_Digital_UseCase/sqlscripts//103.inserttable.sql
+INFO:root:Updated version of database is: 103
+INFO:root:version of database is less than file 104.inserttable.sql so executing the file and updating the database version
+INFO:root:Executed commands in /home/ec2-user/ECS_Digital_UseCase/sqlscripts//104.inserttable.sql
+INFO:root:Updated version of database is: 104
+INFO:root:Database connection closed
+INFO:root:20-05-12_185815 Script Completed!!
